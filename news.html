@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TDL Energy Indonesia — Latest News</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-neutral-950 text-neutral-100 font-[Pretendard]">
+
+    <header class="fixed top-0 left-0 w-full z-50 bg-neutral-950/80 backdrop-blur border-b border-neutral-800">
+        <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+            <h1 class="flex items-center gap-3 text-xl font-bold tracking-wide"> 
+                <img src="images/logo.png" alt="TDL Energy Logo" class="header-logo object-contain"> 
+                <span class="animated-logo-text">TDL ENERGY INDONESIA</span>
+            </h1>
+
+            <nav class="hidden md:flex gap-8 text-sm text-neutral-300">
+                <a href="index.html#about" class="hover:text-white">About</a>
+                <a href="index.html#products" class="hover:text-white">Products</a>
+                <a href="index.html#technology" class="hover:text-white">Technology</a>
+                <a href="news.html" class="hover:text-white font-bold text-cyan-500">News</a> 
+                <a href="index.html#contact" class="hover:text-white">Contact</a>
+            </nav>
+            <button id="mobileMenuBtn" class="md:hidden">☰</button>
+        </div>
+    </header>
+
+    <section class="py-24 px-6 min-h-screen">
+        <div class="max-w-4xl mx-auto pt-10">
+            <h2 class="text-4xl font-bold mb-10 text-white">Latest News</h2>
+            
+            <div id="newsListContainer" class="flex flex-col gap-6">
+                <p class="text-center text-neutral-500 py-10 text-xl">Loading news...</p>
+            </div>
+
+            <div class="mt-12 text-center">
+                <a href="index.html" class="px-6 py-3 rounded-xl border border-neutral-700 hover:bg-neutral-800 transition">
+                    ← Back to Home
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="py-10 px-6 text-center text-neutral-500 border-t border-neutral-800">
+        © 2025 TDL Energy Indonesia. All rights reserved.
+    </footer>
+
+    <script src="js/news.js"></script>
+
+</body>
+</html>
