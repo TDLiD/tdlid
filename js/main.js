@@ -490,6 +490,9 @@ document.addEventListener('DOMContentLoaded', () => {
     initQuoteForm();
     initContactForm();
     initDownloadQuoteCsv();
+
+// ✨ NEW: 뉴스 모달 초기화
+    initNewsModal();
     
     // show sticky CTA immediately on tall screens
     setTimeout(()=>{ const bar = qs('#stickyCTABar'); if(bar) bar.classList.add('hidden'); }, 200);
